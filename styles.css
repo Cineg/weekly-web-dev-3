@@ -1,0 +1,1384 @@
+body{
+  margin: 0 auto;
+  color: #a2a2a2;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+p{
+  margin: 0;
+}
+
+.container{
+  text-align: center;
+}
+
+ul{
+  list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.greenButton{
+  background: #7cc576;
+  border: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0px -1px 2px rgba(0, 0, 0, 0.7);
+  padding: 25px 36px;
+  border-radius: 90px;
+  transition: all 0.5s ease-in-out;
+}
+
+.greenButton:hover{
+  cursor: pointer;
+  color: #7cc576;
+  background: #fff;
+  text-shadow: none;
+}
+
+.nav-item:hover{
+  color: #7cc576;
+}
+#hamburger:hover{
+  cursor: pointer;
+}
+/* --------------- HOME SECTION GLOBAL ------------- */
+.home{
+  background-image: url("imgs/bgtitle.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.home input{
+  margin-top: 60px;
+}
+
+.home h1 {
+  font-size: 60px;
+  font-weight: 700;
+  padding-top: 120px;
+}
+
+
+.home p{
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  padding-top: 40px;
+}
+
+.home > * {
+  color: #fff;
+}
+
+
+/*-------------------- SERVICES SECTION GLOBAL ------------ */
+
+
+.services h2{
+  font-size: 40px;
+  margin-top: 100px;
+  padding: 0;
+  color: #222222;
+}
+
+.services p{
+  margin-top: 20px;
+}
+
+/*---------------------------- RELAX SECTION GLOBAL ----------*/
+.right span{
+  color: #7cc576;
+}
+
+.right li::before{
+  content: url('imgs/check.png');
+  padding-right: 20px;
+  vertical-align: -50%;
+}
+
+.left{
+  background-color: #e9e9e9;
+  background-image: url('imgs/relax-left.png');
+  background-position: center right;
+  background-repeat: no-repeat;
+  width: 35%;
+  height: inherit;
+}
+
+.right{
+  text-align: left;
+  width: 65%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('imgs/relax-right.png');
+}
+
+/*--------------------- latest project global ----------*/
+.row-1{
+  background: url('imgs/proj-ico-1.png');
+  background-repeat: no-repeat;
+  height: 75px;
+}
+.row-2{
+  background: url('imgs/proj-ico-2.png');
+  background-repeat: no-repeat;
+  height: 75px;
+}
+.row-3{
+  background: url('imgs/proj-ico-3.png');
+  background-repeat: no-repeat;
+  height: 75px;
+}
+
+.latestProject{
+  background: url('imgs/ipad.png');
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+/* ---------------------------- Culture global */
+.culture{
+  background: #f9f9f9;
+}
+
+/* ---------------------------- clients global */
+.clients .row .image{
+  width: 220px;
+  height: 220px;
+  background-color: #f9f9f9;
+  border-radius: 50%;
+}
+.clients .row .person-1{
+  background: url('imgs/person-1.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 155%;
+}
+
+.clients .row .person-2{
+  background: url('imgs/person-2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*------------------------------ contact us global*/
+.contact-us{
+  background: #7cc576;
+}
+.contact-us h1{
+  color: #fff;
+  font-size: 40px;
+  letter-spacing: -2px;
+}
+
+.contact-us input{
+  background: 0;
+  color: #fff;
+  font-size: 18px;
+  border: 3px solid #fff;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact-us input:hover{
+  background: #fff;
+  color: #7cc576;
+  cursor: pointer;
+}
+
+
+/*--------------------------- footer global */
+.upperFooter{
+  background: #222;
+    color: #fff;
+}
+
+.upperFooter h5{
+  font-size: 18px;
+}
+.upperFooter p{
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  letter-spacing: -0.5px;
+}
+
+.upperFooter .address::before{
+  content: url('imgs/address.png');
+}
+.upperFooter .phonenum::before{
+  content: url('imgs/phonefooter.png')
+}
+.upperFooter .mail::before{
+  content: url('imgs/mail.png')
+}
+
+.upperFooter .article::before{
+  content: url('imgs/news-ico.png')
+}
+
+.upperFooter .pic::before{
+  content: url('imgs/pic-ico.png')
+}
+.upperFooter .vid::before{
+  content: url('imgs/media-ico.png');
+  width: 27px;
+  text-align: center;
+}
+.tweet-icon{
+  background: url('imgs/twitter.png');
+  background-position: center;
+  width: 55px;
+  height: 25px;
+  background-repeat: no-repeat;
+}
+
+.icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #222;
+}
+
+.tweeter{
+  background-image: url('imgs/tweeter-icon.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.5s ease-in-out;
+}
+.tweeter:hover{
+  cursor: pointer;
+  background-color: #00aced;
+}
+.facebook{
+  background-image: url('imgs/fb-icon.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.5s ease-in-out;
+}
+.facebook:hover{
+  cursor: pointer;
+  background-color: #3b5998;
+}
+.pinterest{
+  background-image: url('imgs/pinterest-icon.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.5s ease-in-out;
+}
+.pinterest:hover{
+  cursor: pointer;
+  background-color: #cb2028;
+}
+.googleplus{
+  background-image: url('imgs/gplus-icon.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.5s ease-in-out;
+}
+.googleplus:hover{
+  cursor: pointer;
+  background-color: #da2713;
+}
+
+
+/* ---------------------hovers */
+.details:hover{
+  cursor: pointer;
+  color: #222;
+}
+.upperFooter p:hover{
+  cursor: pointer;
+  color: #7cc576;
+}
+
+
+/* ---- over 1366px(PC mostly)   ----- */
+@media screen and (min-width: 1366px) {
+    .container{
+      margin: 0 auto;
+      width: 940px;
+    }
+
+    nav{
+      position: fixed;
+      display: flex;
+      height: 115px;
+      background-color: #fff;
+      position: top;
+      width: 100%;
+      transition: all 1s ease-in-out;
+    }
+
+    .nav-sticky{
+      position: fixed;
+      height: 70px;
+    }
+    .nav .container{
+      display: flex;
+    }
+    #hamburger{
+      display: flex;
+    }
+    .nav-list{
+      display: flex;
+      justify-content: flex-end;
+      align-self: center;
+    }
+
+    .nav-item{
+      margin-left: 32px;
+      transition: 0.2s ease-in-out;
+    }
+
+    .logo{
+      width: 470px;
+      display: flex;
+      align-self: center;
+    }
+
+    /*----------------------- HOME SECTION */
+    .home{
+      padding-top: 100px;
+      height: 530px;
+    }
+
+    /*----------------------- SERVICES SECTION */
+    .services{
+      height: 535px;
+    }
+
+    .services .row{
+      display: flex;
+      margin-top: 90px;
+    }
+    .services figure{
+      width: 33%;
+      margin: 0;
+    }
+
+    .services img{
+      margin: 0;
+      margin-bottom: 38px;
+    }
+
+
+    .services h4{
+      color: #222222;
+    }
+
+    .services p{
+      margin-top: 20px;
+    }
+
+    /*------------------------- RELAX SECTION */
+    .relax{
+      height: 616px;
+      display: flex;
+    }
+    .left{
+      background-color: #e9e9e9;
+      background-image: url('imgs/relax-left.png');
+      background-position: center right;
+      background-repeat: no-repeat;
+      width: 35%;
+      height: inherit;
+    }
+
+    .right{
+      text-align: left;
+      width: 65%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url('imgs/relax-right.png');
+      padding-top: 100px;
+      padding-left: 100px;
+    }
+
+
+    .right ul{
+      padding: 0;
+      margin: 0;
+    }
+
+    .right li{
+      margin:0;
+      margin-top: 10px;
+    }
+
+    .right h2{
+      font-size: 40px;
+      color: #fff;
+    }
+    .right p{
+      color: #cccccc;
+      font-size: 16px;
+      text-align: left;
+      max-width: 500px;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      letter-spacing: -1px
+    }
+
+    .right input{
+      margin-top: 50px;
+    }
+
+    /*----------------------------------  latest project section */
+    .latestProject{
+      height: 824px;
+    }
+
+    .latestProject h2{
+      margin-top: 100px;
+      color: #222222;
+      font-size: 40px;
+    }
+
+    .latestProject .subtitle{
+      font-size: 20px;
+      margin-top: 20px;
+    }
+
+    .latestProject h3{
+      text-align: justify;
+      margin-top: 90px;
+      color: #222222;
+    }
+
+    .latestProject .description{
+      margin-top: 25px;
+      text-align: justify;
+      max-width: 470px;
+      font-size: 16px;
+    }
+
+    .items{
+      margin: 0;
+      text-align: left;
+      margin-top: 25px;
+    }
+    .items > div {
+      padding-left: 90px;
+      padding-top: 20px;
+      height: 75px;
+    }
+
+    .items h4{
+      color: #222;
+      font-size: 18px;
+    }
+
+    .lastDesc{
+      text-align: left;
+      width: 470px;
+      margin-bottom: 30px;
+    }
+
+    .details{
+      text-align: left;
+      font-weight: 700;
+      color: #7cc576;
+    }
+
+
+    .details::after{
+      margin-left: 5px;
+      content: url('imgs/arrow.png');
+
+    }
+
+
+    /*---------------------- culute section -----*/
+    .culture{
+      height: 560px;
+    }
+
+    .culture .title h2{
+      font-size: 40px;
+      color: #222;
+      padding-top: 80px;
+      letter-spacing: -1px;
+    }
+
+    .culture .title p{
+      font-size: 20px;
+      margin-top: 20px;
+      letter-spacing: -1px;
+    }
+    .culture .row{
+      display: flex;
+    }
+
+    .culture .item{
+      margin-top: 70px;
+      width: 33%;
+    }
+
+    .culture .item h4{
+      padding-top: 20px;
+      color: #222;
+      font-size: 18px;
+      letter-spacing: -0.5px;
+    }
+    .culture .item p{
+      padding-top: 20px;
+      font-size: 14px;
+      text-align: center;
+      letter-spacing: -0.5px;
+    }
+
+    .culture .item::after{
+      content: "";
+      display: block;
+      position: relative;
+      width: 170px;
+      height: 3px;
+      color: #777777;
+      top: -82%;
+      left: 80%;
+      background-color: #777777;
+    }
+
+    .culture .item:last-child::after{
+      content: "";
+      display: none;
+    }
+
+    /*---------------------------- clients section --------*/
+    .clients{
+      height: 810px;
+    }
+
+    .clients .title{
+      margin-top: 100px;
+      margin-bottom: 90px;
+    }
+    .clients .title h2{
+      color: #222;
+      font-size: 40px;
+      letter-spacing: -2px;
+    }
+    .clients .title p{
+      font-size: 20px;
+      letter-spacing: -1px;
+    }
+
+    .clients .row{
+      display: flex;
+      margin-bottom: 40px;
+    }
+
+    .clients .row .text{
+      margin: 0 30px;
+      width: 600px;
+      height: 135px;
+      align-self: center;
+      background-color: #f9f9f9;
+      padding: 20px;
+    }
+
+    .clients .row .text .quote{
+      padding-top: 10px;
+      font-size: 22px;
+    }
+    .clients .row .text .author{
+      padding-top: 20px;
+      color: #7cc576;
+      font-size: 18px;
+    }
+
+    .reverse{
+      flex-direction: row-reverse;
+    }
+
+    .clients .row .block-1::before{
+      content: "";
+      display: block;
+      width: 20px;
+      height: 20px;
+      position: relative;
+      background: #f9f9f9;
+      top: 40%;
+      left: -30px;
+      transform: rotateZ(45deg);
+    }
+
+    .clients .row .block-2::before{
+      content: "";
+      display: block;
+      width: 20px;
+      height: 20px;
+      position: relative;
+      background: #f9f9f9;
+      top: 40%;
+      left: calc(100% + 10px);
+      transform: rotateZ(45deg);
+    }
+
+    /*--------------------contact us section */
+    .contact-us{
+      height: 250px;
+    }
+    .contact-us h1{
+      padding-top: 60px;
+      color: #fff;
+      padding-bottom: 25px;
+    }
+
+    /*----------------logos section */
+    .logos {
+      height: 165px;
+    }
+    .logos .container{
+      padding-top: 60px;
+      display: flex;
+    }
+
+
+  /*----------------- footer */
+  .upperFooter{
+    height: 365px;
+  }
+
+  .upperFooter .container{
+    padding: 60px 0;
+    display: flex;
+    text-align: left;
+  }
+  .upperFooter .column{
+    width: 33%;
+  }
+
+  .upperFooter h5{
+  padding-bottom: 20px;
+  }
+  .upperFooter p{
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .upperFooter p::before{
+    padding-right: 18px;
+    align-self: center;
+  }
+  .upperFooter .address::before{
+    align-self: flex-start;
+  }
+  .upperFooter p{
+    align-items: baseline;
+    align-self: baseline;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .upperFooter .tweet-div{
+    display: flex;
+    flex-direction:row;
+  }
+
+
+  .upperFooter .tweet{
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .upperFooter .tweet .hash{
+    font-weight: 700;
+  }
+  .upperFooter .tweet .time{
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+
+  .lowerFooter{
+    background: #fff;
+    height: 100px;
+    display: flex;
+  }
+
+  .lowerFooter .container{
+    padding-top: 30px;
+    display: flex;
+  }
+
+  .lowerFooter p{
+    padding-top: 10px;
+    width: 50%;
+    display: flex;
+  }
+
+  .icons{
+    display: flex;
+    width: 50%;
+  }
+
+  .icon{
+    margin: 0 5px;
+  }
+
+}
+
+/* ---- tablets i guess ----*/
+@media only screen
+    and (min-width: 768px)
+    and (max-width: 1366px){
+
+    .container{
+      margin: 0 auto;
+      width: 80%;
+    }
+
+    nav{
+      padding: 20px 0;
+    }
+
+    .home{
+      height: 600px;
+    }
+
+    /*  hamburgeeeeeeeeeeeeer */
+    #hamburger{
+      position: absolute;
+      top: 20px;
+      transition: all 0.2s ease;
+    }
+
+    .hamburger-closed{
+      width: 40px;
+      height: 3px;
+      background: black;
+      position: absolute;
+      right: 10%;
+      top: 0;
+      margin-bottom: 10px;
+    }
+    .hamburger-closed::before{
+      content: "";
+      display: block;
+      width: 40px;
+      height: 3px;
+      background: black;
+      position: absolute;
+      margin-top: 10px;
+    }
+
+    .hamburger-closed::after{
+      content: "";
+      display: block;
+      width: 40px;
+      height: 3px;
+      background: black;
+      position: absolute;
+      margin-top: 20px;
+    }
+
+    .hamburger-open{
+      margin-top: 10px;
+      width: 40px;
+      height: 4px;
+      background: #222;
+      position: absolute;
+      top: 30%;
+      right: 10%;
+      transform: rotateZ(45deg);
+    }
+
+    .hamburger-open::before{
+      content: "";
+      display: block;
+      width: 40px;
+      height: 4px;
+      background: #222;
+      position: absolute;
+      transform:rotateZ(-90deg);
+    }
+
+
+    .nav-list{
+      display: flex;
+      display: none;
+      height: 0;
+    }
+
+    .nav-open{
+      height: 100%;
+      text-align: center;
+      display: block;
+      font-size: 200%;
+      color: #222;
+    }
+    .services{
+      height: 900px;
+    }
+
+    .services .item > img{
+      margin-top: 80px;
+    }
+
+    .services .item > h4{
+      font-size: 120%;
+      color: #222222;
+    }
+
+    .relax{
+      height: 600px;
+      display: flex;
+    }
+
+    .right h2{
+      font-size: 300%;
+      margin-left: 2%;
+      margin-top: 2%;
+      color: #fff;
+    }
+
+    .right p{
+      margin-top: 30px;
+      margin-left: 30px;
+      width: 80%;
+      color: #fff;
+    }
+
+    .right ul{
+      padding-top: 15px;
+    }
+    .right li{
+      margin-top: 10px;
+    }
+
+    .right input{
+      margin-left: 50px;
+      margin-top: 30px;
+    }
+
+    .latestProject{
+      font-size: 130%;
+      height: 1500px;
+      background-size: 80%;
+      background-position: 200% 100%;
+    }
+    .latestProject h3, .latestProject h2{
+      margin-top: 20px;
+      color: #222;
+    }
+
+    .latestProject h2{
+      margin-top: 100px;
+      font-size: 180%;
+    }
+    .latestProject .subtitle, .latestProject .description{
+      padding-bottom: 80px;
+    }
+
+    .latestProject .items > div{
+      margin-bottom: 100px;
+      background-position: top center;
+    }
+
+    .latestProject .items h4{
+      padding-top: 80px;
+      color: #222;
+    }
+
+
+    .latestProject .details{
+      font-size: 150%;
+      margin-top: 30px;
+      font-weight: 700;
+      color: #7cc576;
+    }
+
+
+    .culture{
+      padding: 100px 0;
+      height: 1000px;
+      font-size: 120%;
+    }
+
+    .culture .title h2{
+      font-size: 200%;
+      color: #222;
+    }
+
+    .culture .title{
+      margin-bottom: 50px;
+    }
+
+    .culture .row .item{
+      margin-bottom: 80px;
+    }
+
+    .culture .row .item h4{
+      font-size: 120%;
+      margin: 20px 0;
+    }
+
+    .clients{
+      padding: 150px 0;
+      font-size: 140%;
+    }
+
+    .clients h2{
+      font-size: 180%;
+      color: #222;
+    }
+
+    .clients .row{
+      margin: 80px 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .clients .row .image{
+      align-self: center;
+      margin-bottom: 10px;
+      border: 3px solid #f9f9f9;
+    }
+
+    .clients .row .text{
+      background-color: #f9f9f9;
+      border-radius: 30px;
+      padding: 50px;
+    }
+
+    .clients .row .author{
+      margin-top: 15px;
+      color: #7cc576;
+    }
+
+
+    .contact-us{
+      padding: 100px 0;
+    }
+
+    .contact-us input{
+      margin-top: 20px;
+      font-size: 200%;
+    }
+
+    .logos{
+      padding: 20px 0 40px 0;
+    }
+
+    .logos .container >*{
+      margin-top: 20px;
+    }
+
+    .upperFooter .container{
+      display: flex;
+      padding: 50px 0;
+    }
+
+    .upperFooter .column h5{
+      text-align: center;
+    }
+    .upperFooter .column{
+      width: 30%;
+      margin-right: 3%;
+      font-size: 150%;
+      text-align: justify;
+    }
+
+    .upperFooter .column p{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .upperFooter .column .tweet-div p{
+      margin-bottom: 10px;
+      padding: 10px;
+      background-color: #333;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .tweet-div .tweet-icon{
+      display: none;
+    }
+    .lowerFooter{
+      background: #fff;
+      height: 100px;
+      display: flex;
+    }
+
+    .lowerFooter .container{
+      padding-top: 30px;
+      display: flex;
+    }
+
+    .lowerFooter p{
+      padding-top: 10px;
+      width: 50%;
+      display: flex;
+    }
+
+    .icons{
+      display: flex;
+      width: 50%;
+    }
+
+    .icon{
+      margin: 0 5px;
+    }
+}
+
+/* ----- Phones ----- */
+@media only screen
+    and (max-width: 767px){
+
+      body{max-width: 100%;}
+
+      .container{
+        margin: 0 auto;
+        width: 80%;
+      }
+      nav{
+        padding: 20px 0;
+      }
+
+
+      #hamburger{
+        position: absolute;
+        top: 20px;
+        transition: all 0.2s ease;
+      }
+
+      .hamburger-closed{
+        width: 40px;
+        height: 3px;
+        background: black;
+        position: absolute;
+        right: 10%;
+        top: 0;
+        margin-bottom: 10px;
+      }
+      .hamburger-closed::before{
+        content: "";
+        display: block;
+        width: 40px;
+        height: 3px;
+        background: black;
+        position: absolute;
+        margin-top: 10px;
+      }
+
+      .hamburger-closed::after{
+        content: "";
+        display: block;
+        width: 40px;
+        height: 3px;
+        background: black;
+        position: absolute;
+        margin-top: 20px;
+      }
+
+      .hamburger-open{
+        margin-top: 10px;
+        width: 40px;
+        height: 4px;
+        background: #222;
+        position: absolute;
+        top: 30%;
+        right: 10%;
+        transform: rotateZ(45deg);
+      }
+
+      .hamburger-open::before{
+        content: "";
+        display: block;
+        width: 40px;
+        height: 4px;
+        background: #222;
+        position: absolute;
+        transform:rotateZ(-90deg);
+      }
+
+
+      .nav-list{
+        display: flex;
+        display: none;
+        height: 0;
+      }
+
+      .nav-open{
+        height: 100%;
+        text-align: center;
+        display: block;
+        font-size: 200%;
+        color: #222;
+      }
+
+      .home{
+        padding: 50px 0 150px 0;
+        display: flex;
+      }
+      .home h1{
+        font-size: 250%;
+      }
+      .home p{
+        margin: 30px;
+        font-size: 100%;
+      }
+      .home input{
+        margin-top: 30px;
+      }
+
+
+      .services{
+        padding: 100px 0;
+      }
+
+      .services h2{
+        margin-top: 30px;
+        font-size: 200%;
+      }
+
+      .services .item > img{
+        margin-top: 50px;
+      }
+
+      .services .item > h4{
+        font-size: 120%;
+        color: #222222;
+      }
+
+      .relax{
+        display: flex;
+      }
+
+      .relax .left{
+        width: 0%;
+      }
+      .relax .right{
+        width: 100%;
+        padding: 100px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .right h2{
+        text-align: center;
+        font-size: 300%;
+        color: #fff;
+      }
+
+      .right p{
+        margin-top: 30px;
+        margin-left: 30px;
+        width: 80%;
+        color: #fff;
+      }
+
+      .right ul{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        padding-top: 50px;
+      }
+      .right li{
+        display:flex;
+        flex-direction: column;
+        align-self: center;
+        margin-top: 40px;
+      }
+
+      .right li::before{
+        margin-left: 30px;
+        margin-bottom: 8px;
+        text-align: center;
+      }
+
+      .right input{
+        margin-top: 50px;
+      }
+
+      .latestProject{
+        font-size: 130%;
+        height: 1650px;
+        background-size: 80%;
+        background-position: 200% 100%;
+      }
+      .latestProject h3, .latestProject h2{
+        margin-top: 20px;
+        color: #222;
+      }
+
+      .latestProject h2{
+        margin-top: 60px;
+        font-size: 180%;
+      }
+      .latestProject .subtitle, .latestProject .description{
+        padding-bottom: 80px;
+      }
+
+      .latestProject .items > div{
+        margin-bottom: 150px;
+        background-position: top center;
+      }
+
+      .latestProject .items h4{
+        padding-top: 80px;
+        color: #222;
+      }
+
+
+      .latestProject .details{
+        font-size: 150%;
+        margin-top: 30px;
+        font-weight: 700;
+        color: #7cc576;
+      }
+
+
+      .culture{
+        padding: 100px 0;
+        font-size: 120%;
+      }
+
+      .culture .title h2{
+        font-size: 200%;
+        color: #222;
+      }
+
+      .culture .title{
+        margin-bottom: 50px;
+      }
+
+      .culture .row .item{
+        margin-bottom: 80px;
+      }
+
+      .culture .row .item h4{
+        font-size: 120%;
+        margin: 20px 0;
+      }
+
+      .clients{
+        padding: 150px 0;
+        font-size: 140%;
+      }
+
+      .clients h2{
+        font-size: 180%;
+        color: #222;
+      }
+
+      .clients .row{
+        margin: 50px 0;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .clients .row .image{
+        align-self: center;
+        margin-bottom: 10px;
+        border: 3px solid #f9f9f9;
+      }
+
+      .clients .row .text{
+        background-color: #f9f9f9;
+        border-radius: 30px;
+        padding: 50px;
+      }
+
+      .clients .row .author{
+        margin-top: 15px;
+        color: #7cc576;
+      }
+
+
+      .contact-us{
+        padding: 100px 0;
+      }
+
+      .contact-us input{
+        margin-top: 20px;
+        font-size: 200%;
+      }
+
+      .logos{
+        padding: 20px 0 40px 0;
+      }
+
+      .logos .container >*{
+        margin-top: 20px;
+      }
+
+      .upperFooter .container{
+        display: flex;
+        padding: 50px 0;
+        flex-direction: column;
+      }
+
+      .upperFooter .column h5{
+        text-align: center;
+        font-size: 160%;
+        margin-top: 30px;
+      }
+      .upperFooter .column{
+        font-size: 150%;
+        text-align: justify;
+      }
+
+      .upperFooter .column p{
+      margin-top: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      }
+
+      .upperFooter .column .tweet-div p{
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: #333;
+        border-radius: 10px;
+        text-align: center;
+      }
+
+      .tweet-div .tweet-icon{
+        display: none;
+      }
+      .lowerFooter{
+        background: #fff;
+        height: 100px;
+        display: flex;
+      }
+
+      .lowerFooter .container{
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .lowerFooter p{
+        padding-top: 10px;
+        padding-bottom: 20px;
+      }
+
+      .icons{
+        display: flex;
+      }
+
+      .icon{
+        margin: 20px 5px;
+      }
+}
